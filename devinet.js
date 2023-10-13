@@ -22,7 +22,7 @@ btnDevinete.addEventListener('click', ()=>{
     }else{
         messageElement.style.backgroundColor = "rgba(30, 160, 30, 0.575)";
         messageElement.style.display = 'block';
-        messageElement.innerHTML = 'Bravo vous avez Deviner';
+        messageElement.innerHTML = 'Bravo vous avez deviné le bon chiffre';
         inputElement.value = inputElement.value;
         messageElement.setAttribute("class","message");
     }
