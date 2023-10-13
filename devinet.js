@@ -2,3 +2,6 @@
 const messageElement = document.querySelector(".message");
 const inputElement = document.getElementById("input");
 const btnDevinete = document.getElementById("Devinete");
+
+let random = Math.floor(Math.random() * 99)
+
